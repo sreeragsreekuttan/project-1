@@ -1,0 +1,102 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+
+*{margin:0;
+    padding:0%;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    
+    
+    
+}
+
+nav{
+margin-top: 23px;
+text-align: right;
+   color:aliceblue
+}
+
+nav ul{
+    display:inline-block;
+    list-style: none;
+    transform: skew(-25deg);
+
+  
+
+    
+
+}
+    
+
+nav ul li{
+    background-color: black;
+    float: left;
+    border-right: 1px solid white;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: 500;
+    transition: all 0.3s linear;
+
+    
+}
+a{
+    color:inherit;
+    display: block;
+    padding:10px 20px;
+    text-decoration: none;
+    transform: skew(25deg);
+
+}
+
+nav ul li:hover{
+    background-color: blue;
+    color:antiquewhite;
+
+}
+nav ul li:first-child{
+    border-radius: 7px 0 0 7px;
+}
+nav ul li:last-child{
+    border-radius: 0 7px 0 0;
+}
+
+  img{
+    width: 1300px; 
+    height: auto;
+ }
+ .im{
+    position: relative;
+ }
+ .imtext{
+  position: absolute;
+    color: #f2f0f5;
+    top:0;
+    padding-top: 200px ;
+    padding-left: 200px;
+    
+    font-family: 'Merriweather', serif;
+    
+
+ }
+ button{
+    background-color: rgb(241, 26, 10);
+    font-size: 20px;
+    color: aliceblue;
+    padding: 11px 12px;
+    border-radius: 25px;
+    cursor:pointer;
+ }
+   
+    
+
+
+ 
+
+
+
